@@ -19,28 +19,18 @@ This project demonstrates the implementation of:
 
 The application is intended as a learning project showcasing how secure access systems and permission management can be structured in a standalone desktop environment.
 
-📁 Project Structure
-TBD_Project/
-│
-├── auth/              # Authentication logic (login, validation)
-├── database/          # Database connection and queries
-├── gui/               # GUI components and main application
-│   └── gui_main.py    # Entry point of the application
-│
-├── Data/              # Local data storage (e.g., SQLite DB)
-│
-├── build/             # Temporary build files (ignored in Git)
-├── dist/              # Compiled executable output
-│
-├── .gitignore         # Git ignore rules
-└── README.md          # Project documentation
+
+
 ⚙️ Requirements
 Python 3.9+
 pip (Python package manager)
+
 🚀 Getting Started
+
 1. Clone the Repository
 git clone https://github.com/your-username/tbd-project.git
 cd tbd-project
+
 2. Create a Virtual Environment
 python -m venv venv
 
@@ -49,6 +39,7 @@ Activate it:
 Windows
 
 venv\Scripts\activate
+
 
 
 3. Install Dependencies
@@ -60,8 +51,10 @@ pip install -r requirements.txt
 If not, install manually (example):
 
 pip install tkinter
+
 4. Run the Application
 python gui/main.py
+
 
 This project includes basic security mechanisms such as:
 
